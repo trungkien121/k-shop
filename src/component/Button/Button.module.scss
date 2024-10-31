@@ -1,0 +1,34 @@
+.wrapper {
+    background: linear-gradient(to right, #434343 50%, white 50%);
+    background-size: 200% 100%;
+    background-position: 0 0;
+    color: white;
+    height: 42px;
+    width: 100%;
+    border: 1px solid #434343;
+    cursor: pointer;
+    transition: background-position 0.3s ease, color 0.3s ease;
+
+    + .wrapper {
+        margin-left: 20px;
+    }
+}
+
+.wrapper:hover {
+    background-position: -100% 0;
+    color: var(--text-color);
+}
+
+.blueBackground {
+    background: linear-gradient(to right, #27678f 50%, white 50%);
+    background-size: 200% 100%;
+    background-position: 0 0;
+    border: 1px solid #27678f;
+}
+
+.orangeBackground {
+    background: linear-gradient(to right, #ef683a 50%, white 50%);
+    background-size: 200% 100%;
+    background-position: 0 0;
+    border: 1px solid #ef683a;
+}

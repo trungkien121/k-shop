@@ -1,0 +1,27 @@
+.wrapper {
+    width: 100%;
+}
+
+.image-product {
+}
+.content {
+    & .link-product {
+        color: #000;
+    }
+}
+.link-product {
+}
+.price-product {
+    color: #f94c43;
+}
+
+.price-product-del {
+    color: #939393;
+    font-size: 13px;
+    margin-left: 5px;
+}
+.evaluate-product {
+    color: #f94c43;
+}
+.sold-product {
+}

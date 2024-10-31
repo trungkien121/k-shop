@@ -1,0 +1,65 @@
+.wrapper {
+    position: relative;
+    background-image: url('https://c.wallhere.com/photos/44/e7/3840x2160_px_landscape_mountain_nature_photography-627169.jpg!d');
+    background-size: cover; /* Hoặc 'contain' nếu bạn muốn ảnh vừa với phần tử */
+    background-position: center; /* Căn giữa ảnh nền */
+    background-repeat: no-repeat; /* Ngăn không lặp lại ảnh nền */
+    width: 100vw;
+    height: 100vh;
+    font-weight: 600;
+}
+
+.box {
+    position: absolute;
+    width: 350px;
+    height: 300px;
+    border: 1px solid #333;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    background-color: transparent;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+
+    & label {
+        display: block;
+        margin-bottom: 10px;
+        font-size: 16px;
+        color: #333;
+    }
+
+    & input {
+        width: 100%; /* Để trừ đi padding */
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 14px;
+    }
+
+    & button {
+        width: 100%;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        background-color: #333;
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    & button:hover {
+        background-color: #555;
+    }
+
+    & a {
+    }
+}
+
+.register {
+    display: flex;
+    margin: 12px 0;
+}
